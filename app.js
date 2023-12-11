@@ -1,55 +1,54 @@
-//app.js
-var bodyParser = require('body-parser');
-var mongoose = require('mongoose');
+const express = require('express');
+const mongoose = require('mongoose');
 var passport = require('passport');
 var LocalStrategy = require('passport-local').Strategy;
-var session = require('express-session');
-var express = require('express');
-var app = express();
-var path = require('path');
+const session = require('express-session');
+require('dotenv').config();
+const authRoutes = require('./routes/authRoutes');
 
+const app = express();
 
-var PORT = 3000;
-app.listen(PORT, function() {
-    console.log('Server is running on port ' + PORT);
-});
-
-app.use(express.static(__dirname + '/public'));
-
+// Configure express-session
 app.use(session({
-  secret: 'my-secret-key-1',
+  secret: 'your secret key', // Replace with a real secret in production
   resave: false,
-  saveUninitialized: false,
-  cookie: { maxAge: 10 * 1000 }  // Auto logout after 10 seconds
+  saveUninitialized: true
 }));
 
-var Account = require('./models/account');
-passport.use(new LocalStrategy(Account.authenticate()));
-passport.serializeUser(Account.serializeUser());
-passport.deserializeUser(Account.deserializeUser());
+// Middleware for parsing JSON and urlencoded data and serving static files
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+app.use(express.static('public'));
 
-mongoose.connect('mongodb://localhost:27017/Arcade');
+// MongoDB connection
+mongoose.connect('mongodb+srv://sakethm97:umagopal64@wpl.fa7iaen.mongodb.net/?retryWrites=true', { useNewUrlParser: true, useUnifiedTopology: true })
+  .then(() => console.log('Connected to MongoDB'))
+  .catch(err => console.error('Could not connect to MongoDB', err));
 
-app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'ejs');
+// Routes
 
-
-app.use(session({ secret: 'this-is-a-secret-token' }));
+var User = require('./models/user');
+passport.use(new LocalStrategy(User.authenticate()));
+passport.serializeUser(User.serializeUser());
+passport.deserializeUser(User.deserializeUser());
 app.use(passport.initialize());
 app.use(passport.session());
-var indexRouter = require('./routes/index');
-app.use('/', indexRouter);
 
-// app.use(function(req, res, next) {
-//   next(createError(404));
-// });
+app.use(authRoutes);
 
-app.use(function(err, req, res, next) {
-  res.locals.message = err.message;
-  res.locals.error = req.app.get('env') === 'development' ? err : {};
-  res.status(err.status || 500);
-  res.render('error');
+
+// Start the server
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+    console.log(`Server running on port ${PORT}`);
 });
 
-module.exports = app;
+app.use((err, req, res, next) => {
+  console.error(err.stack);
 
+  if (res.headersSent) {
+    return next(err);
+  }
+
+  res.status(500).send('Something went wrong!');
+});

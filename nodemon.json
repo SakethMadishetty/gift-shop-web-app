@@ -1,0 +1,9 @@
+{
+    "watch": [
+        "models",
+        "public",
+        "routes"
+    ],
+    "ext": "js json html css",
+    "exec": "node app.js"
+}

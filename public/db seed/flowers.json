@@ -1,0 +1,403 @@
+[
+    {
+        "name": "Bridal Jewelry Set",
+        "description": "Golden Necklace and Earrings made out of 22 karat gold",
+        "price": 5000,
+        "imageUrl": "images/bridal_jewelry_set.jpg",
+        "quantity": 20,
+        "category": "Jewelry"
+    },
+    {
+        "name": "Diamond Elegance Necklace",
+        "description": "Equisite Diamond Necklace crafted to eleveate your style and captivate everyone.",
+        "price": 15000,
+        "imageUrl": "images/diamond_necklace.jpg",
+        "quantity": 20,
+        "category": "Jewelry"
+    },
+    {
+        "name": "Drop Crystal Earrings",
+        "description": "Crystal Earrings with sleek design that make them perfect accessory for any occasion.",
+        "price": 3000,
+        "imageUrl": "images/drop_crystal_earrings.jpg",
+        "quantity": 20,
+        "category": "Jewelry"
+    },
+    {
+        "name": "Golden Stars Necklace",
+        "description": "A magical piece that captures beauty of starlit night sky.",
+        "price": 5000,
+        "imageUrl": "images/golden_star_necklace.jpg",
+        "quantity": 20,
+        "category": "Jewelry"
+    },
+    {
+        "name": "Green Gemstone Earrings",
+        "description": "Elevate your look with the refreshing allure of our Green Gemstone Earrings",
+        "price": 1000,
+        "imageUrl": "images/green_stone_earrings.jpg",
+        "quantity": 20,
+        "category": "Jewelry"
+    },
+    {
+        "name": "Heart Pendant Necklace",
+        "description": "This exquisite necklace features a gracefully sculpted heart pendant, symbolizing affection, warmth, and enduring emotions.",
+        "price": 3500,
+        "imageUrl": "images/heart_pendant_necklace.jpg",
+        "quantity": 20,
+        "category": "Jewelry"
+    },
+    {
+        "name": "Infinity Rings",
+        "description": "These beautifully crafted rings feature the iconic infinity symbol, delicately entwined with meticulous detail.",
+        "price": 2999,
+        "imageUrl": "images/infinity_rings.jpg",
+        "quantity": 20,
+        "category": "Jewelry"
+    },
+    {
+        "name": "Timeless Pearl Necklace",
+        "description": "A sophisticated piece that exudes grace and refinement.",
+        "price": 2499,
+        "imageUrl": "images/pearl_necklace.jpg",
+        "quantity": 20,
+        "category": "Jewelry"
+    },
+    {
+        "name": "Radiant Drop Earrings",
+        "description": "These earrings feature shimmering drops that gracefully catch and reflect light.",
+        "price": 2000,
+        "imageUrl": "images/shiny_drop_earrings.jpg",
+        "quantity": 20,
+        "category": "Jewelry"
+    },
+    {
+        "name": "Blush Radiance Gem Earrings",
+        "description": "These delightful earrings feature exquisite pink gemstones, carefully selected for their soft hue and radiant allure.",
+        "price": 2700,
+        "imageUrl": "images/pink_gem_earrings.jpg",
+        "quantity": 20,
+        "category": "Jewelry"
+    },
+    {
+        "name": "Abstract Oil Painting",
+        "description": "This painting is a mesmerizing fusion of colors and forms that evoke emotion and inspire imagination.",
+        "price": 149,
+        "imageUrl": "images/AbstractOilPainting.jpg",
+        "quantity": 20,
+        "category": "Art"
+    },
+    {
+        "name": "Avian Mosaic",
+        "description": "This piece features an intricate arrangement of vibrant tiles, meticulously crafted to bring the beauty of nature into your space.",
+        "price": 350,
+        "imageUrl": "images/BeautifulBordMosaic.jpg",
+        "quantity": 20,
+        "category": "Art"
+    },
+    {
+        "name": "Butterfly Stained Glass",
+        "description": "This exquisite piece features carefully handcrafted stained glass, expertly arranged to depict a mesmerizing butterfly.",
+        "price": 200,
+        "imageUrl": "images/ButterflyStainedGlass.jpg",
+        "quantity": 20,
+        "category": "Art"
+    },
+    {
+        "name": "China Bird Mosaic",
+        "description": "This beautiful mosaic was was inspired by birds depicted on 14th century ceramics",
+        "price": 220,
+        "imageUrl": "images/ColorfulChinaBird.jpg",
+        "quantity": 20,
+        "category": "Art"
+    },
+    {
+        "name": "Framed Landscape Oil Painting",
+        "description": "This exquisite artwork is crafted with rich, vibrant oil colors, skillfully depicting a landscape where the tree stands as a symbol of strength, endurance, and timeless beauty.",
+        "price": 170,
+        "imageUrl": "images/FramedLandscapeOilPainting.jpg",
+        "quantity": 20,
+        "category": "Art"
+    },
+    {
+        "name": "Framed Pine tree Oil Painting",
+        "description": "A breathtaking artwork that centers around the serene beauty of a solitary pine tree.",
+        "price": 80,
+        "imageUrl": "images/FramedOilPaintng.jpg",
+        "quantity": 20,
+        "category": "Art"
+    },
+    {
+        "name": "Hummingbirds Wall Hanging Art",
+        "description": "Introducing our Hummingbirds Wall Art- a delicate and captivating addition to adorn your space. This art piece features vibrant hummingbirds in graceful flight, suspended in a beautiful wall hanging.",
+        "price": 60,
+        "imageUrl": "images/Hummingbirds_Wall_hanging_art.jpg",
+        "quantity": 20,
+        "category": "Art"
+    },
+    {
+        "name": "Ocean Oil Painting Wall Art",
+        "description": "A a stunning artwork that captures the mesmerizing beauty of the ocean.The artist's skillful brushstrokes create the ebb and flow of waves, while the play of light and shadow captures the ever-changing moods of the ocean.",
+        "price": 120,
+        "imageUrl": "images/OceanOilPaintingWallArt.jpg",
+        "quantity": 20,
+        "category": "Art"
+    },
+    {
+        "name": "Scottish Highland Cottage OIl Painting",
+        "description": "Introducing our Scottish Highland Cottage Oil Painting – a picturesque artwork that captures the charm and character of a traditional Scottish house amidst the scenic beauty of the Highlands. Crafted with rich, expressive oil colors, this painting transports viewers to the idyllic landscapes of Scotland.",
+        "price": 170,
+        "imageUrl": "images/Scottish_HouseOilPainting.jpg",
+        "quantity": 20,
+        "category": "Art"
+    },
+    {
+        "name": "The Eye Mosaic",
+        "description": "Introducing our Eye Mosaic- an intriguing and expressive piece of art that captures the depth and emotion found within the human eye.The intricate arrangement of tiles allows for the portrayal of subtle nuances in shading, reflections, and highlights, resulting in a mesmerizing and lifelike gaze.",
+        "price": 240,
+        "imageUrl": "images/TheEyeMosaic.jpg",
+        "quantity": 20,
+        "category": "Art"
+    },
+    {
+        "name": "Floral Summer Dress",
+        "description": "Elevate your summer style with our Floral Summer Dress, a vibrant and breezy ensemble featuring a burst of blooming florals for a chic and feminine look.",
+        "price": 130,
+        "imageUrl": "images/FloralSummerDress.jpg",
+        "quantity": 20,
+        "category": "Clothing"
+    },
+    {
+        "name": "Long Sleeve Casual Shirt",
+        "description": "Stay effortlessly stylish with our Long Sleeve Casual Shirt, a versatile wardrobe essential designed for comfort and laid-back sophistication",
+        "price": 100,
+        "imageUrl": "images/LongSleeveCasualShirt.jpg",
+        "quantity": 20,
+        "category": "Clothing"
+    },
+    {
+        "name": "Polo Shirt",
+        "description": "Perfect for a casual yet polished look, whether you're hitting the golf course or enjoying a weekend outing.",
+        "price": 70,
+        "imageUrl": "images/PoloShirt.jpg",
+        "quantity": 20,
+        "category": "Clothing"
+    },
+    {
+        "name": "Printed Hoodie Sweatshirt",
+        "description": "This stylish Sweatshirt featuring a unique and artistic design that adds a touch of mystery to your casual wardrobe.",
+        "price": 120,
+        "imageUrl": "images/PrintedHoodieSweatshirt.jpg",
+        "quantity": 20,
+        "category": "Clothing"
+    },
+    {
+        "name": "Shirt Jacket",
+        "description": "This versatile Shirt Jacket is the perfect blend of classic style and casual comfort. Transition seamlessly between seasons with this wardrobe essential that effortlessly combines the structure of a shirt with the warmth of a jacket.",
+        "price": 155,
+        "imageUrl": "images/ShirtJacket.jpg",
+        "quantity": 20,
+        "category": "Clothing"
+    },
+    {
+        "name": "Winter Ladies Corduroy Dress",
+        "description": "A timeless and cozy ensemble perfect for colder days. Embrace both warmth and style in this chic winter wardrobe essential.",
+        "price": 200,
+        "imageUrl": "images/WinterCorduroyDress.jpg",
+        "quantity": 20,
+        "category": "Clothing"
+    },
+    {
+        "name": "Winter Ladies Coatigan Jacket",
+        "description": " A stylish fusion of a coat and cardigan. Combining warmth and fashion, this cozy essential is perfect for staying chic and comfortable during the colder months.",
+        "price": 160,
+        "imageUrl": "images/WinterLadiesCoatiganJacket.jpg",
+        "quantity": 20,
+        "category": "Clothing"
+    },
+    {
+        "name": "Womens Leather Pant",
+        "description": "A sleek and chic addition to your wardrobe that seamlessly combines comfort and bold style.",
+        "price": 80,
+        "imageUrl": "images/WomensLeatherPant.jpg",
+        "quantity": 20,
+        "category": "Clothing"
+    },
+    {
+        "name": "Leather Bomber Jacket WW2",
+        "description": "This WW2-inspired Leather Bomber Jacket is a timeless tribute to aviation history. Crafted with attention to detail, this jacket exudes rugged elegance, offering both style and durability for a classic and iconic look.",
+        "price": 200,
+        "imageUrl": "images/LeatherBomberJacketWW2.jpg",
+        "quantity": 20,
+        "category": "Clothing"
+    },
+    {
+        "name": "Mandarin Collar Dress",
+        "description": "Our Mandarin Collar Dress combines sophistication with a touch of cultural flair. This chic ensemble, featuring a sleek mandarin collar, is perfect for a polished and refined look on any occasion.",
+        "price": 210,
+        "imageUrl": "images/MandarinCollarDress.jpg",
+        "quantity": 20,
+        "category": "Clothing"
+    },
+    {
+        "name": "Mens Casual Pool themed watch",
+        "description": "A playful timepiece that captures the essence of leisure and relaxation.",
+        "price": 70,
+        "imageUrl": "images/M1.jpg",
+        "quantity": 20,
+        "category": "Watches"
+    },
+    {
+        "name": "Mens Solar Watch",
+        "description": "This watch is a cutting-edge timepiece that combines sophistication with eco-friendly technology. Powered by the sun, this watch not only keeps you on time but also makes a statement in sustainable fashion.",
+        "price": 150,
+        "imageUrl": "images/m2.jpg",
+        "quantity": 20,
+        "category": "Watches"
+    },
+    {
+        "name": "Mens Stylish Swiss Watch",
+        "description": "A sophisticated timepiece that seamlessly blends precision craftsmanship with refined aesthetics. Elevate your look with this Swiss-made watch, the epitome of luxury and style.",
+        "price": 200,
+        "imageUrl": "images/m3.jpg",
+        "quantity": 20,
+        "category": "Watches"
+    },
+    {
+        "name": "Mens Watch - Made in Ireland",
+        "description": "Experience the charm of craftsmanship with our Men's Watch, proudly made in Ireland. This timepiece not only keeps you on schedule but also embodies the artistry and tradition of Irish watchmaking.",
+        "price": 210,
+        "imageUrl": "images/m4.jpg",
+        "quantity": 20,
+        "category": "Watches"
+    },
+    {
+        "name": "Vintage Watch For Men",
+        "description": "A timeless accessory that exudes character and history.",
+        "price": 300,
+        "imageUrl": "images/vintagem5.jpg",
+        "quantity": 20,
+        "category": "Watches"
+    },
+    {
+        "name": "Analog Watch For Women",
+        "description": "Embrace classic elegance with our Analog Women's Watch, a sophisticated timepiece designed for timeless style.",
+        "price": 100,
+        "imageUrl": "images/w1.jpg",
+        "quantity": 20,
+        "category": "Watches"
+    },
+    {
+        "name": "Gold Tone Women's Watch",
+        "description": "Elevate your style with this elegant timepiece, showcasing a gleaming gold-tone finish that complements any outfit with grace and refinement.",
+        "price": 160,
+        "imageUrl": "images/w2.jpg",
+        "quantity": 20,
+        "category": "Watches"
+    },
+    {
+        "name": "Silver Tone Women's Watch",
+        "description": "This timeless accessory features a sleek silver-tone finish, combining versatility and sophistication for a refined look that transcends trends.",
+        "price": 140,
+        "imageUrl": "images/w3.jpg",
+        "quantity": 20,
+        "category": "Watches"
+    },
+    {
+        "name": "Swiss Made Women's Watch",
+        "description": "Meticulously crafted, this timepiece showcases the impeccable artistry of Swiss watchmaking, offering a blend of elegance and precision.",
+        "price": 180,
+        "imageUrl": "images/w4.jpg",
+        "quantity": 20,
+        "category": "Watches"
+    },
+    {
+        "name": "Designer Watch For Women",
+        "description": "A meticulously crafted timepiece that seamlessly blends fashion and function. Showcasing exquisite design details, this watch is a statement accessory that adds a touch of glamour and sophistication to any ensemble.",
+        "price": 120,
+        "imageUrl": "images/w5.jpg",
+        "quantity": 20,
+        "category": "Watches"
+    },
+    {
+        "name": "Boondhi Laddu - 1 lb",
+        "description": "Boondhi Laddu, a delightful Indian sweet, encapsulates the perfect blend of sweetness and texture.",
+        "price": 30,
+        "imageUrl": "images/BoondhiLaddu.jpg",
+        "quantity": 20,
+        "category": "Sweets_Treats"
+    },
+    {
+        "name": "Candy Mix - 20 candies",
+        "description": "Savor the sweetness with our Candy and Chocolate Mix – a delectable assortment of 20 treats that combines a variety of candies and chocolates.",
+        "price": 50,
+        "imageUrl": "images/CandyMix.jpg",
+        "quantity": 20,
+        "category": "Sweets_Treats"
+    },
+    {
+        "name": "cookies and cream cupcakes -set of 6",
+        "description": "Indulge in the irresistible charm of our Cookies and Cream Cupcakes, a set of six heavenly treats that perfectly blend the classic goodness of cookies with velvety cream.",
+        "price": 30,
+        "imageUrl": "images/cookiesandcreamcupcake.jpg",
+        "quantity": 20,
+        "category": "Sweets_Treats"
+    },
+    {
+        "name": "Gulab Jamun -1 lb",
+        "description": "Savor the richness of our Gulab Jamun, a classic Indian dessert, with this 1 lb pack. Perfect for celebrations or a sweet indulgence, our Gulab Jamun promises a taste of tradition and culinary delight in every bite.",
+        "price": 40,
+        "imageUrl": "images/GulabJamun.jpg",
+        "quantity": 20,
+        "category": "Sweets_Treats"
+    },
+    {
+        "name": "Kaju Katli - 1 lb",
+        "description": "These diamond-shaped delights feature a velvety blend of cashews, ghee, and sugar, creating a rich and nutty flavor. Crafted to perfection, our Kaju Katli offers a touch of sweetness that's perfect for celebrations or as an elegant treat to satisfy your cravings.",
+        "price": 49,
+        "imageUrl": "images/KajuKatli.jpg",
+        "quantity": 20,
+        "category": "Sweets_Treats"
+    },
+    {
+        "name": "Fruit and Nut basket",
+        "description": "A delightful assortment that combines the freshness of handpicked fruits with the wholesome richness of premium nuts. This vibrant basket is a perfect balance of health and indulgence, offering a variety of flavors and textures for a nourishing and satisfying treat.",
+        "price": 65,
+        "imageUrl": "images/nutbasket.jpg",
+        "quantity": 20,
+        "category": "Sweets_Treats"
+    },
+    {
+        "name": "Nuts basket ",
+        "description": "Indulge in the goodness of our Nut Basket, a carefully curated selection of premium nuts that promises a crunchy and satisfying snacking experience.",
+        "price": 25,
+        "imageUrl": "images/Nutbasket2.jpg",
+        "quantity": 20,
+        "category": "Sweets_Treats"
+    },
+    {
+        "name": "Strawberry Cupcakes Qty 6",
+        "description": "Each flavorful cupcake is crowned with luscious strawberry-infused frosting, creating a delightful symphony of fruity goodness in every bite. Perfect for sharing or savoring on your own, these cupcakes are a delicious way to elevate your dessert experience.",
+        "price": 36,
+        "imageUrl": "images/Strawberry_Cupcakes.jpg",
+        "quantity": 20,
+        "category": "Sweets_Treats"
+    },
+    {
+        "name": "Strawberry Candies Qty 30",
+        "description": "Savor the sweetness of our Strawberry Candies, a bundle of 30 delightful treats bursting with the luscious flavor of ripe strawberries.",
+        "price": 59,
+        "imageUrl": "images/StrawberryCandies.jpg",
+        "quantity": 20,
+        "category": "Sweets_Treats"
+    },
+    {
+        "name": "Chocolate Gift Basket",
+        "description": "Indulge in luxury with our Chocolate Gift Basket, a curated collection of premium chocolates that promises an exquisite taste experience.",
+        "price": 59,
+        "imageUrl": "images/chocgiftbasket.jpg",
+        "quantity": 20,
+        "category": "Sweets_Treats"
+    }
+    
+]
